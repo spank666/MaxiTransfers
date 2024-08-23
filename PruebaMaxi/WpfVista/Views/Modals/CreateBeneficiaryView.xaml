@@ -1,0 +1,60 @@
+﻿<UserControl x:Class="WpfVista.Views.Modals.CreateBeneficiaryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfVista.Views.Modals"
+             mc:Ignorable="d" 
+             Width="460"
+             Margin="20">
+    <Grid >
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Background="#FFF580" CornerRadius="10,10,0,0" Padding="20">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                <Image Source="/WpfVista;component/Assets/Images/sender.png" Width="40" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Label Content="Crear Beneficiario" FontSize="18" FontWeight="Bold" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="10,0,0,0"/>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="1" Background="White" CornerRadius="0,0,10,10" Padding="20" Name="bordesin">
+            <StackPanel>
+
+                <Label Content="Nombres" Padding="0"/>
+                <TextBox Text="{Binding beneficiary.Nombres, ValidatesOnDataErrors=True}" FontSize="13" CaretBrush="#4C4C4C" />
+
+                <Label Content="Apellidos" Padding="0" Margin="0,10,0,0"/>
+                <TextBox Text="{Binding beneficiary.Apellidos, ValidatesOnDataErrors=True}" FontSize="13" CaretBrush="#4C4C4C" />
+
+                <Label Content="Fecha de Nacimiento" Padding="0" Margin="0,10,0,0"/>
+                <DatePicker SelectedDate="{Binding beneficiary.Fecha, ValidatesOnDataErrors=True}"/>
+
+                <Label Content="CURP" Padding="0" Margin="0,10,0,0"/>
+                <TextBox Text="{Binding beneficiary.CURP, ValidatesOnDataErrors=True}" FontSize="13" CaretBrush="#4C4C4C" />
+
+                <Label Content="SSN" Padding="0" Margin="0,10,0,0"/>
+                <TextBox Text="{Binding beneficiary.SSN, ValidatesOnDataErrors=True}" FontSize="13" CaretBrush="#4C4C4C" />
+
+                <Label Content="Telefono" Padding="0" Margin="0,10,0,0"/>
+                <TextBox Text="{Binding beneficiary.Telefono, ValidatesOnDataErrors=True}" FontSize="13" CaretBrush="#4C4C4C" />
+
+                <Label Content="Nacionalidad" Padding="0" Margin="0,10,0,0"/>
+                <TextBox Text="{Binding beneficiary.Nacionalidad, ValidatesOnDataErrors=True}" FontSize="13" CaretBrush="#4C4C4C" />
+
+                <!--
+                <Label Content="Porcentaje de Participacion" Padding="0" Margin="0,10,0,0"/>
+                <Slider Minimum="0" Maximum="100" Value="{Binding beneficiary.Porcentaje, ValidatesOnDataErrors=True}" IsSnapToTickEnabled="True" TickPlacement="BottomRight" AutoToolTipPlacement="TopLeft" AutoToolTipPrecision="1" />
+                -->
+
+                <StackPanel Orientation="Horizontal" Margin="0,20,0,0" HorizontalAlignment="Right">
+                    <Button Content="Cancelar" Command="{Binding CancelCommand}" Style="{StaticResource buttonRed}"/>
+                    <Button Content="Guardar" Margin="10,0,0,0" Command="{Binding CreateBeneficiaryCommand}" Style="{StaticResource buttonBlack}"/>
+                </StackPanel>
+
+
+
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

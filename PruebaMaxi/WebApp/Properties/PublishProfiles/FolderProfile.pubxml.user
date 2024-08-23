@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\victo\Downloads\victorwebapp</_PublishTargetUrl>
+    <History>True|2024-08-23T15:30:12.5030520Z||;True|2024-08-23T01:12:22.6771824-06:00||;True|2024-08-23T01:07:34.6414222-06:00||;True|2024-08-23T01:06:25.5687555-06:00||;True|2024-08-23T01:04:54.4063432-06:00||;True|2024-08-23T01:04:23.9002045-06:00||;True|2024-08-23T00:25:08.0364442-06:00||;True|2024-08-23T00:22:27.3958420-06:00||;True|2024-08-23T00:21:06.2636669-06:00||;True|2024-08-23T00:17:48.2272181-06:00||;True|2024-08-23T00:17:02.7894948-06:00||;True|2024-08-23T00:13:25.6694388-06:00||;True|2024-08-23T00:12:02.4732391-06:00||;True|2024-08-23T00:07:30.7506820-06:00||;True|2024-08-23T00:06:08.4736792-06:00||;True|2024-08-23T00:04:16.3718473-06:00||;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DbContext">
+      <Value>Server=SPANK-PC%3bDatabase=MAXI%3bTrusted_Connection=True%3bMultipleActiveResultSets=true%3bTrustServerCertificate=True%3bIntegrated Security=true%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

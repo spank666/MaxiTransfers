@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Images\confirm-transaction%402x.png" />
+    <None Remove="Assets\Images\grey-bg%402x.png" />
+    <None Remove="Assets\Images\recipient.png" />
+    <None Remove="Assets\Images\sender.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Images\confirm-transaction@2x.png" />
+    <Resource Include="Assets\Images\grey-bg@2x.png" />
+    <Resource Include="Assets\Images\recipient.png" />
+    <Resource Include="Assets\Images\sender.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Url\UrlResource.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>UrlResource.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Url\UrlResource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UrlResource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,6 @@
+C:\Users\victo\source\repos\PruebaMaxi\WpfVista\bin\Debug\net8.0-windows\app.publish\WpfVista.exe
+C:\Users\victo\source\repos\PruebaMaxi\WpfVista\bin\Debug\net8.0-windows\app.publish\WpfVista.dll
+C:\Users\victo\source\repos\PruebaMaxi\WpfVista\bin\Debug\net8.0-windows\app.publish\WpfVista.deps.json
+C:\Users\victo\source\repos\PruebaMaxi\WpfVista\bin\Debug\net8.0-windows\app.publish\WpfVista.runtimeconfig.json
+C:\Users\victo\source\repos\PruebaMaxi\WpfVista\bin\Debug\net8.0-windows\app.publish\WpfVista.pdb
+C:\Users\victo\source\repos\PruebaMaxi\WpfVista\bin\Debug\net8.0-windows\app.publish\Newtonsoft.Json.dll

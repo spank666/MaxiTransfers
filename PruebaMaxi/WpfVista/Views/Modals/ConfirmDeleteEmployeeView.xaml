@@ -1,0 +1,37 @@
+﻿<UserControl x:Class="WpfVista.Views.Modals.ConfirmDeleteEmployeeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfVista.Views.Modals"
+             mc:Ignorable="d" 
+             Width="520"
+             Margin="20">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        <Border Grid.Row="0" Background="#FFF580" CornerRadius="10,10,0,0" Padding="20">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Top">
+                <Image Source="/WpfVista;component/Assets/Images/confirm-transaction@2x.png" Width="40" HorizontalAlignment="Left" VerticalAlignment="Center"/>
+                <Label Content="Confirmation window" Style="{StaticResource CT_ConfirmationTran}"/>
+            </StackPanel>
+        </Border>
+        <Border Grid.Row="1" Background="White" CornerRadius="0,0,10,10" Padding="20">
+            <StackPanel>
+                <Label Content="¿Desear eliminar a este empleado?" FontSize="14" FontWeight="Bold"/>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <Button Grid.Column="0" Margin="0,25,5,0" Content="No" Style="{StaticResource buttonRed}" Command="{Binding NoCommand}"/>
+                    <Button Grid.Column="1" Margin="5,25,0,0" Content="Si" Style="{StaticResource buttonBlack}" Command="{Binding SiCommand}"/>
+
+                </Grid>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

@@ -1,0 +1,5 @@
+C:\Users\victo\source\repos\PruebaMaxi\WebApplication\obj\Debug\net8.0\WebApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\source\repos\PruebaMaxi\WebApplication\obj\Debug\net8.0\WebApplication.AssemblyInfoInputs.cache
+C:\Users\victo\source\repos\PruebaMaxi\WebApplication\obj\Debug\net8.0\WebApplication.AssemblyInfo.cs
+C:\Users\victo\source\repos\PruebaMaxi\WebApplication\obj\Debug\net8.0\WebApplication.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\PruebaMaxi\WebApplication\obj\Debug\net8.0\WebApplication.MvcApplicationPartsAssemblyInfo.cache

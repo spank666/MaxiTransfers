@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\victo\\source\\repos\\PruebaMaxi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{534A9350-4DAD-4E51-A474-20A38A660DAD}|WebApp\\WebApp.csproj|c:\\users\\victo\\source\\repos\\pruebamaxi\\webapp\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534A9350-4DAD-4E51-A474-20A38A660DAD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{534A9350-4DAD-4E51-A474-20A38A660DAD}|WebApp\\WebApp.csproj|c:\\users\\victo\\source\\repos\\pruebamaxi\\webapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{534A9350-4DAD-4E51-A474-20A38A660DAD}|WebApp\\WebApp.csproj|solutionrelative:webapp\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\PruebaMaxi\\WebApp\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "WebApp\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\PruebaMaxi\\WebApp\\Services\\LoginService.cs",
+              "RelativeToolTip": "WebApp\\Services\\LoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T06:56:01.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\victo\\source\\repos\\PruebaMaxi\\WebApp\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "WebApp\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\victo\\source\\repos\\PruebaMaxi\\WebApp\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "WebApp\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAIwCkAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-23T06:55:57.618Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
